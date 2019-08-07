@@ -1,17 +1,9 @@
 import React from 'react';
-<<<<<<< HEAD
-import './style.css';
-import git from './Images/git.svg';
-import telegram from './Images/telegram.png';
-import instagram from './Images/instagram.png';
-import cop from './Images/cop.png';
-=======
 import '../../assets/css/Footer.css'
 import git from '../../assets/images/git.svg';
 import telegram from '../../assets/images/telegram.png';
 import instagram from '../../assets/images/instagram.png';
 import cop from '../../assets/images/cop.png';
->>>>>>> 5th task
 
 const TelegramName = '@shadow_alexx';
 const InstagramName = '@shadow_alexx';

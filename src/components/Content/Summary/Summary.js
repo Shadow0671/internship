@@ -1,11 +1,6 @@
 import React from 'react';
-<<<<<<< HEAD
-import './style.css';
-import znakfirst from './Images/znakfirst.png';
-=======
 import '../../../assets/css/Summary.css'
 import znakfirst from '../../../assets/images/znakfirst.png';
->>>>>>> 5th task
 
 export default class Summary extends React.Component {
     constructor(props) {
@@ -64,10 +59,6 @@ export default class Summary extends React.Component {
     						<li>{this.state.arr2Text2}</li>
     						<li>{this.state.arr2Text3}</li>
     						<li>{this.state.arr2Text4}</li>
-<<<<<<< HEAD
-    						<li>{this.state.arr2Text5}</li>
-=======
->>>>>>> 5th task
     					</ul>
 
     				</div>

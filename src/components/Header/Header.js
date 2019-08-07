@@ -1,10 +1,5 @@
 import React from 'react';
-
-<<<<<<< HEAD
-import './style.css';
-=======
 import '../../assets/css/Header.css';
->>>>>>> 5th task
 
 const Name = 'Александр Гриб';
 const Who = 'Студент / Веб-дизайнер';

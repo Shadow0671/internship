@@ -1,11 +1,6 @@
 import React from 'react';
-<<<<<<< HEAD
-import './style.css';
-import me from './Images/me.png';
-=======
 import '../../../assets/css/Home.css';
 import me from '../../../assets/images/me.png';
->>>>>>> 5th task
 
 export default class Home extends React.Component {
     constructor(props) {
