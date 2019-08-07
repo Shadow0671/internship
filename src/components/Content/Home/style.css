@@ -1,0 +1,91 @@
+.content{
+	margin: 0 auto;
+	margin-top: -50px;
+    width: 60%;
+	text-align: center;
+	color: #666666;
+}
+
+.myphoto{
+	display: inline-block;
+	margin-top: 15%;
+}
+
+.content1{
+    display: inline-block;
+	text-align: left;
+	margin-left: 30px;
+    vertical-align: top;
+    width: 50%;
+}
+
+.cp1{
+	font-size: 80px;
+	font-weight: 600;
+}
+
+.cp2{
+	font-size: 60px;
+	font-weight: 400;
+	margin-top: -90px;
+}
+
+.btnGroup{
+	margin-top: -30px;
+}
+
+.button1{
+	display: inline-block;
+	width: 130px;
+  	height: 130px;
+  	margin-right: 20px;
+  	cursor: pointer;
+	border-radius: 50%;
+	border: none;
+	background-color: #D74045;
+	color: #fff;
+}
+
+.button1:hover {
+	background-color: #A53A3D;
+	transition: .3s;
+}
+
+.button2{
+	display: inline-block;
+	width: 130px;
+  	height: 130px;
+  	margin-right: 20px;
+  	cursor: pointer;
+	border-radius: 50%;
+	border: none;
+	background-color: #40B9D7;
+	color: #fff;
+}
+
+.button2:hover {
+	background-color: #2B8095;
+	transition: .3s;
+}
+
+.button3{
+	display: inline-block;
+	width: 130px;
+  	height: 130px;
+  	margin-right: 20px;
+  	cursor: pointer;
+	border-radius: 50%;
+	border: none;
+	background-color: #DBD642;
+	color: #fff;
+}
+
+.button3:hover {
+	background-color: #A4A035;
+	transition: .3s;
+}
+
+.cp3{
+	margin-top: 40px;
+    font-size: 16px;
+}
