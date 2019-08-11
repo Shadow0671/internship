@@ -39,7 +39,8 @@ export default class Summary extends React.Component {
 
     render() {
         return (
-            <div class="secondcontent">
+			<section id="summary">
+				<div class="secondcontent">
     			<div class="content2">
     				<p class="cp4">{this.state.firstText}</p>
     				<hr/>
@@ -98,6 +99,8 @@ export default class Summary extends React.Component {
     				</p>
     			</div>
     		</div>
+
+			</section>
         );
     };
 };

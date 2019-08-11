@@ -112,7 +112,8 @@ export default class Biography extends React.Component {
 
     render() {
         return (
-            <div class="content">
+            <section id="biography">
+                <div class="content">
                 <p class="cp4">БИОГРАФИЯ</p>
                 <hr/>
     			<p><br/></p>
@@ -127,9 +128,7 @@ export default class Biography extends React.Component {
                                     </tr>
 
                                      <YearsItems years={this.state.years}
-                                                 handleDeleteClick = {this.handleDelete}
-                                     />
-
+                                                 handleDeleteClick = {this.handleDelete}/>
                                 </tbody>
                             </table>
                             <table className="myBiography">
@@ -142,8 +141,7 @@ export default class Biography extends React.Component {
                                             errorYear = {this.state.errorYear}
                                             handleChangeInfo = {this.handleChangeInfo}
                                             text = {this.state.text}
-                                            handelReset = {this.handelReset}
-                            />
+                                            handelReset = {this.handelReset}                     />
                                         </th>
                                         <th className='left' colSpan="2">
                                             <div className="row">
@@ -152,17 +150,14 @@ export default class Biography extends React.Component {
                                             </div>
                                         </th>
                                     </tr>
-
                                 </tbody>
                             </table>
                         </div>
-                    </div>
-
-
-
-                    
+                    </div>  
                 </div>
-    		</div>
+    		    </div>
+            </section>
+            
         );
     };
 };

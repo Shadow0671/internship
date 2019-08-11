@@ -9,11 +9,9 @@ export default class Home extends React.Component {
             firstText: 'Привет,',
             secondText: 'Будем знакомы:',
             btn1: 'РЕЗЮМЕ',
-            btn2: 'ПРОЕКТЫ',
-            btn3: 'НАВЫКИ',
-            thirdText: 'Всем привет. Давайте знакомится. Я Саша, мне 22 года, я web дизайнер - ученик. Вы хотите заказать сайт в Киеве? Легко! Звоните или пишите мне.',
-            fourthText: 'Мои услуги - услуги веб дизайнера: разработка сайтов, веб дизайн, графический дизайн, оптимизация сайтов и сопровождение сайтов, компьютерная помощь',
-            fifthText: 'Если Вы хотите заказать сайт визитку или сайт компании, предлагаю Вам ознакомится с моими навыками web дизайна.'
+            btn2: 'БИОГРАФИЯ',
+            btn3: 'КОНТАКТЫ',
+            thirdText: 'Всем привет. Давайте знакомится. Я Саша, мне 22 года, я web дизайнер - ученик. Вы хотите заказать сайт? Легко! Звоните или пишите мне.',
         };
     }
 
@@ -30,8 +28,6 @@ export default class Home extends React.Component {
     					<button class="button button3">{this.state.btn3}</button>
     				</div>
     					<p class="cp3">{this.state.thirdText}</p>
-    					<p>{this.state.fourthText}</p>
-    					<p>{this.state.fifthText}</p>
     			</div>
             </div>
         );
